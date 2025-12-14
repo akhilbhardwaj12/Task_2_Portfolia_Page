@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akhil Bhardwaj - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      background: #eef1f5;
+      color: #2e2e2e;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: 15px auto 0;
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #2c3e50;
+      position: relative;
+    }
+
+    h2::after {
+      content: "";
+      width: 60px;
+      height: 4px;
+      background: #4ca1af;
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      border-radius: 2px;
+    }
+
+    .card-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .card-list li {
+      background: #fff;
+      margin: 15px 0;
+      padding: 18px 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      font-size: 1.05rem;
+      font-weight: 500;
+    }
+
+    form {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 12px 0;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      transition: 0.3s ease;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #4ca1af;
+      outline: none;
+      box-shadow: 0 0 6px rgba(76,161,175,0.3);
+    }
+
+    button {
+      padding: 12px 20px;
+      background: #4ca1af;
+      color: #fff;
+      border: none;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: #3b8490;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Akhil Bhardwaj</h1>
+    <p>Looking for a challenging career where I can reach indefinite success in technical fields and contribute to the growth of an organization while enhancing my professional skills.</p>
+  </header>
+
+  <section>
+    <h2>Skills</h2>
+    <ul class="card-list">
+      <li>Leadership</li>
+      <li>Interpersonal Communication</li>
+      <li>Marketing Network</li>
+      <li>Microsoft Office</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Akhil Bhardwaj. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
